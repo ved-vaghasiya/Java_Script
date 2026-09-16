@@ -9,3 +9,4 @@ console.log("typeof y:", typeof y);
 
 console.log("x == y:", x == y);
 console.log("x === y:", x === y);
+//ved
