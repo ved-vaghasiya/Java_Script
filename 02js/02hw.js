@@ -1,48 +1,88 @@
-// // +
+//A...
+//Addition
+//1..
+classOne=1500;
+classTwo=1250;
+total=classOne+classTwo;
+console.log(total)
 
-// let firstclass = 15000;
-// let secondclass = 12500;
-// console.log("total fees",firstclass+secondclas,"₹");
+//2..
+morningPages=18
+eveningPages=25
+console.log(morningPages+eveningPages);
 
-// let morning =  18 ;
-// let evening = 25;
-// console.log("total page read",morning+evening);
+//3..
+let itemsMonday=125;
+let itemsTuesday=178;
+console.log(itemsMonday+itemsTuesday)
 
-// let monday = 125;
-// let tuesday = 178;
-// console.log("total item sell",monday+tuesday);
-
-// // -
-
-// let totalseat = 80;
-// let occuied = 53;
-// console.log("seat avilable",totalseat-occuied);
-
-// let tomarks = 500;
-// let incorrect = 35;
-// console.log("tottal marks gain",tomarks-incorrect);
-
-// let warebox = 2500 ;
-// let shopbox = 875;
-// console.log("total box in warehouse",warebox-shopbox)
-
-// //*
-
-// let onebook = 45;
-// let books = 8;
-
-// console.log("total money",onebook*books,"₹");
-
-// let perho
+//Subtraction..
+//1..
+let totalSeats=80
+let occupiedSeats=53
+let emptySeats=totalSeats-occupiedSeats;
+console.log(emptySeats)
 
 
-const prompt = require("prompt-sync")();
+//2
+let obtainedMarks=500;
+let negativeMarks=35;
+let finalMarks=obtainedMarks-negativeMarks;
+console.log(finalMarks)
 
-let name = prompt("Enter your name: ");
+//3..
+let totalBoxex=2500;
+let storeBoxes=875;
+let remainingBoxes=totalBoxex-storeBoxes;
+console.log(remainingBoxes)
 
-console.log("Hello", name);
+//Multiplication...
+//1..
+let notebookPrice=45;
+let totalNotebooks=8
+let totalPrice=notebookPrice*totalBoxex;
+console.log(totalPrice)
 
 
-console.log(7==7);
-console.log()
+//2...
+let bottlesperHour=120;
+let totalHours=60;
+console.log(bottlesperHour*totalHours)
 
+//3...
+let rows=7;
+let plants=15;
+console.log(rows*plants)
+
+
+//Division...
+//1..
+let pencil = 144;
+let totalStudents=12;
+console.log(pencil/totalStudents)
+
+//2..
+let kilometers=360;
+let hours=6;
+console.log(kilometers/hours)
+
+//3...
+let totalAmount = 72000;
+let departments = 9;
+
+let amount = totalAmount / departments;
+
+console.log(amount);
+
+
+//Module..
+//1..
+let students=53;
+let groups=5;
+let studentLeftOver=students%groups;
+console.log(studentLeftOver)
+
+//2..
+let candies = 128;
+let candiesInBox=10;
+console.log(candies%candiesInBox)
